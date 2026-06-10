@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 
-import { profile, siteMeta } from "@/content";
+import { profile } from "@/content";
 
 export function HeroSection() {
   const [positioningPrefix, positioningSuffix] = profile.positioning.split(
@@ -17,8 +18,11 @@ export function HeroSection() {
         <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--accent)]">
           {profile.name}
         </p>
+        <p className="mt-3 text-sm font-semibold text-slate-600">
+          {profile.homepage.hero.eyebrow}
+        </p>
         <h1
-          className="mt-5 max-w-full text-4xl font-semibold leading-[1.08] tracking-[-0.05em] text-slate-950 sm:max-w-4xl sm:text-5xl lg:text-[4rem]"
+          className="mt-5 max-w-full text-4xl font-semibold leading-[1.08] tracking-[-0.05em] text-slate-950 sm:max-w-4xl sm:text-5xl lg:text-[3.75rem]"
           id="hero-heading"
         >
           {positioningPrefix}
@@ -34,16 +38,15 @@ export function HeroSection() {
           {profile.homepage.hero.supportingCopy}
         </p>
         <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-          <a
+          <Link
             className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[var(--accent)] px-6 text-sm font-semibold text-white transition-colors hover:bg-blue-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
-            href={`mailto:${profile.email}`}
+            href="/resume"
           >
             {profile.homepage.hero.primaryAction}
-          </a>
+          </Link>
           <a
             className="inline-flex min-h-12 items-center justify-center rounded-lg border border-slate-300 bg-white px-6 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
-            href={siteMeta.resumeUrl}
-            download
+            href={`mailto:${profile.email}`}
           >
             {profile.homepage.hero.secondaryAction}
           </a>

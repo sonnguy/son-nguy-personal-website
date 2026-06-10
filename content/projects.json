@@ -3,7 +3,7 @@
     "id": "mvillage",
     "name": "MVillage",
     "resumeName": "MVillage Platform",
-    "category": "Hospitality, Membership & Payments",
+    "category": "Payments & Membership Platforms",
     "domains": [
       "Hospitality",
       "Membership",
@@ -33,7 +33,7 @@
     "id": "prophet-exchange",
     "name": "Prophet Exchange",
     "resumeName": "ProphetX Platform",
-    "category": "Sports Prediction Market & Martech",
+    "category": "Martech & Prediction Market Experiences",
     "domains": [
       "Payments",
       "Martech",
@@ -68,7 +68,7 @@
     "id": "cq-capitalis",
     "name": "CQ & Capitalis",
     "resumeName": "CQ & Capitalis",
-    "category": "AI-Enabled Investment SaaS",
+    "category": "AI SaaS & Product Prototyping",
     "domains": [
       "AI SaaS",
       "Investment Platforms",

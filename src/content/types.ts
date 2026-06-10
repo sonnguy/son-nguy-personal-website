@@ -37,14 +37,19 @@ export type ProfileContent = {
   avatarPath: string;
   homepage: {
     hero: {
+      eyebrow: string;
       subheadline: string;
       supportingCopy: string;
       primaryAction: string;
       secondaryAction: string;
     };
-    snapshot: {
+    credibility: {
       title: string;
       description: string;
+      items: Array<{
+        label: string;
+        detail: string;
+      }>;
     };
     experience: {
       eyebrow: string;
@@ -60,6 +65,7 @@ export type ProfileContent = {
       title: string;
       copy: string;
       primaryAction: string;
+      resumeAction: string;
     };
   };
 };

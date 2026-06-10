@@ -2,8 +2,8 @@
   "name": "Son Nguy",
   "title": "Product Engineer",
   "resumeTitle": "Senior Front-End Engineer | Product Engineering | Martech | Payment Systems",
-  "positioning": "Product Engineer specializing in Payments, Martech, and Customer Experience Platforms",
-  "positioningAccent": "Payments, Martech, and Customer Experience",
+  "positioning": "Product Engineer building Payments, Martech, Analytics, and Customer Experience products",
+  "positioningAccent": "Product Engineer",
   "location": "Khanh Hoa, Vietnam",
   "email": "nguynhuhuyson@gmail.com",
   "phone": "+84 392 309 915",
@@ -63,14 +63,37 @@
   "avatarPath": "/images/avatar-professional.png",
   "homepage": {
     "hero": {
-      "subheadline": "Building customer-facing products across fintech, AI SaaS, hospitality, and membership businesses with 10+ years of experience in frontend engineering, payment systems, analytics, and product delivery.",
-      "supportingCopy": "From payment gateways and loyalty programs to analytics foundations and marketing technology integrations, I help teams build products that improve customer experiences and support business growth.",
-      "primaryAction": "Get In Touch",
-      "secondaryAction": "Download Resume"
+      "eyebrow": "Senior Front-End Engineer · 10+ Years",
+      "subheadline": "I own customer-facing product delivery across fintech, AI SaaS, hospitality, and membership platforms.",
+      "supportingCopy": "My work spans payment and membership journeys, Martech and analytics foundations, product prototyping, and cross-functional delivery from requirements through release.",
+      "primaryAction": "View Resume",
+      "secondaryAction": "Email Son"
     },
-    "snapshot": {
-      "title": "Career Snapshot",
-      "description": "A decade of building the systems behind customer transactions, engagement, and product growth."
+    "credibility": {
+      "title": "Product Engineering at a Glance",
+      "description": "Business-critical experience across the systems that drive transactions, engagement, insight, and delivery.",
+      "items": [
+        {
+          "label": "10+ Years",
+          "detail": "Web and mobile product delivery"
+        },
+        {
+          "label": "Payments",
+          "detail": "8 payment providers and transaction flows"
+        },
+        {
+          "label": "Martech",
+          "detail": "Attribution, lifecycle, and engagement"
+        },
+        {
+          "label": "Analytics",
+          "detail": "Product, customer, and campaign foundations"
+        },
+        {
+          "label": "AI-Assisted",
+          "detail": "Prototyping, debugging, review, and delivery"
+        }
+      ]
     },
     "experience": {
       "eyebrow": "Experience",
@@ -86,10 +109,11 @@
       ]
     },
     "contact": {
-      "eyebrow": "Contact",
-      "title": "Let's Build Better Product Experiences",
-      "copy": "I'm always interested in conversations about product engineering, payment systems, Martech, customer experience platforms, and AI-assisted development workflows.",
-      "primaryAction": "Get In Touch"
+      "eyebrow": "Hiring",
+      "title": "Hiring for Product or Senior Front-End Engineering?",
+      "copy": "I'm open to roles where customer-facing product ownership, payments, Martech, analytics, and cross-functional delivery are central to the work.",
+      "primaryAction": "Email Son",
+      "resumeAction": "View Resume"
     }
   }
 }

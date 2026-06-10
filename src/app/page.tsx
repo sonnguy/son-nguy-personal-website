@@ -1,7 +1,7 @@
 import { SiteHeader } from "@/components/layout/site-header";
-import { CareerSnapshotSection } from "@/components/sections/career-snapshot-section";
 import { ContactSection } from "@/components/sections/contact-section";
 import { CoreDomainsSection } from "@/components/sections/core-domains-section";
+import { CredibilityStrip } from "@/components/sections/credibility-strip";
 import { ExperienceSection } from "@/components/sections/experience-section";
 import { FeaturedPlatformsSection } from "@/components/sections/featured-platforms-section";
 import { HeroSection } from "@/components/sections/hero-section";
@@ -20,7 +20,7 @@ export default function HomePage() {
         tabIndex={-1}
       >
         <HeroSection />
-        <CareerSnapshotSection />
+        <CredibilityStrip />
         <CoreDomainsSection />
         <FeaturedPlatformsSection />
         <ExperienceSection />

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { profile, siteMeta } from "@/content";
 
 export function ContactSection() {
@@ -24,15 +26,23 @@ export function ContactSection() {
             </p>
           </div>
 
-          <a
-            className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[var(--accent)] px-6 text-sm font-semibold text-white transition-colors hover:bg-blue-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
-            href={`mailto:${profile.email}`}
-          >
-            {profile.homepage.contact.primaryAction}
-          </a>
+          <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
+            <a
+              className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[var(--accent)] px-6 text-sm font-semibold text-white transition-colors hover:bg-blue-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+              href={`mailto:${profile.email}`}
+            >
+              {profile.homepage.contact.primaryAction}
+            </a>
+            <Link
+              className="inline-flex min-h-12 items-center justify-center rounded-lg border border-blue-200 bg-white px-6 text-sm font-semibold text-blue-950 transition-colors hover:border-blue-300 hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+              href="/resume"
+            >
+              {profile.homepage.contact.resumeAction}
+            </Link>
+          </div>
         </div>
 
-        <dl className="mt-10 grid gap-6 border-t border-blue-100 pt-8 sm:grid-cols-2">
+        <dl className="mt-10 grid gap-6 border-t border-blue-100 pt-8 sm:grid-cols-3">
           <div>
             <dt className="text-sm font-semibold text-slate-950">
               {siteMeta.contactLabels.email}

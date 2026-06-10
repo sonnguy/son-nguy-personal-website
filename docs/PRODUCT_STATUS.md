@@ -2,8 +2,8 @@
 
 ## Current Version
 
-- Version: v1.0.0
-- Status: Production
+- Version: v1.1.0
+- Status: Release candidate
 - Domain: sonnguy.dev
 - Primary purpose: Professional personal brand website / recruiter-facing landing page
 
@@ -83,6 +83,19 @@ The site should communicate:
 - Completed lint and production build validation for the v1.0.0 release.
 - Tagged the production release as `v1.0.0`.
 
+### Phase 5 — Recruiter Conversion Optimization
+
+- Strengthened the hero around Product Engineering, Senior Front-End
+  Engineering, 10+ years of experience, and core business domains.
+- Added a compact credibility strip covering payments, Martech, analytics, and
+  AI-assisted engineering.
+- Reframed featured work around business domains before company and technology.
+- Made the dedicated resume route the primary homepage action while preserving
+  PDF download and preview flows.
+- Reworked contact copy and actions around explicit hiring intent.
+- Revalidated navigation, responsive behavior, resume actions, and contact
+  actions for the v1.1.0 release candidate.
+
 ## Key Product Decisions
 
 ### Business-first Positioning
@@ -105,17 +118,6 @@ All experience, projects, companies, metrics, and claims should be grounded in t
 
 The site should help recruiters and hiring managers quickly understand Son’s market value and decide whether to start an interview process. Content hierarchy and calls to action should support fast scanning, resume access, and direct contact.
 
-## Current Gaps
-
-Phase 5 should address the following gaps:
-
-- Hero may need stronger recruiter-facing positioning.
-- Featured work should be reframed more clearly around business domains.
-- Resume call to action can be stronger.
-- Contact section can be more conversion-focused.
-- Recruiters should understand the value proposition faster.
-- Differentiation from generic frontend portfolios can be improved.
-
 ## Roadmap
 
 The roadmap is ordered by product value. Future phases should remain small,
@@ -123,7 +125,7 @@ measurable, and grounded in approved resume content.
 
 ### Phase 5 — Recruiter Conversion Optimization
 
-Status: Planned
+Status: Completed
 
 Primary objective: Help target visitors understand Son’s value and take the
 next step with less effort.
@@ -135,8 +137,8 @@ next step with less effort.
 - Review the page hierarchy against the 15-second comprehension goal.
 - Preserve the content-first visual direction and avoid unsupported claims.
 
-Phase 5 is complete when the core positioning, strongest domains, resume
-access, and contact path are immediately clear across mobile and desktop.
+The core positioning, strongest domains, resume access, and contact path are
+now presented directly across mobile and desktop.
 
 ### Continuous Product Maintenance
 
@@ -162,7 +164,6 @@ site into a traditional portfolio. The blog remains low priority.
 
 ## Backlog / Future Considerations
 
-- Phase 5 — Recruiter Conversion Optimization
 - Optional future AI-assisted engineering page
 - Optional deeper case studies grounded in real work and approved information
 - Optional writing and speaking section when relevant material exists
@@ -190,6 +191,21 @@ Future optimization should improve:
 - Confidence that the website and resume tell one consistent, credible story
 
 ## Release History
+
+### v1.1.0 — June 10, 2026
+
+Status: Release candidate
+
+- Clarified Product Engineer and Senior Front-End Engineer positioning in the
+  hero, with 10+ years of experience visible before the main headline.
+- Added a five-part credibility strip for experience, payments, Martech,
+  analytics, and AI-assisted engineering.
+- Reframed featured work around business domains for faster audience scanning.
+- Promoted the `/resume` route in the hero and contact section while preserving
+  PDF download, new-tab, and preview actions.
+- Reworked contact messaging around Product Engineering and Senior Front-End
+  Engineering hiring intent.
+- Updated the application package version to `1.1.0`.
 
 ### v1.0.0 — June 10, 2026
 
