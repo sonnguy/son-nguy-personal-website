@@ -1,5 +1,7 @@
 import { profile, siteMeta } from "@/content";
 
+import { ActiveNavigation } from "./active-navigation";
+
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-white/95 backdrop-blur-sm">
@@ -12,20 +14,7 @@ export function SiteHeader() {
           {profile.name}
         </a>
 
-        <nav aria-label="Primary navigation">
-          <ul className="flex items-center gap-3 text-xs font-medium text-slate-600 sm:gap-7 sm:text-sm lg:text-[0.9375rem]">
-            {siteMeta.navigation.map((item) => (
-              <li key={item.href}>
-                <a
-                  className="rounded-sm transition-colors hover:text-slate-950 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent)]"
-                  href={item.href}
-                >
-                  {item.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <ActiveNavigation items={siteMeta.navigation} />
       </div>
     </header>
   );
