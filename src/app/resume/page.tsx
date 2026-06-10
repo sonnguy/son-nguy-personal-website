@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { SiteShell } from "@/components/layout/site-shell";
 import { ResumeFoundation } from "@/components/resume/resume-foundation";
 import { resumeContent } from "@/content/resume";
+import { socialImage } from "@/lib/site-metadata";
 
 const title = "Resume | Son Nguy";
 const description =
@@ -20,11 +21,13 @@ export const metadata: Metadata = {
     url: "/resume",
     title,
     description,
+    images: [socialImage],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
+    images: [socialImage],
   },
 };
 
