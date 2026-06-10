@@ -5,10 +5,27 @@ import { SiteShell } from "@/components/layout/site-shell";
 import { ResumeFoundation } from "@/components/resume/resume-foundation";
 import { resumeContent } from "@/content/resume";
 
+const title = "Resume | Son Nguy";
+const description =
+  "Resume for Son Nguy, a Product Engineer specializing in payments, Martech, analytics, and customer experience platforms.";
+
 export const metadata: Metadata = {
-  title: "Resume | Son Nguy",
-  description:
-    "Resume for Son Nguy, a Product Engineer specializing in payments, Martech, analytics, and customer experience platforms.",
+  title,
+  description,
+  alternates: {
+    canonical: "/resume",
+  },
+  openGraph: {
+    type: "website",
+    url: "/resume",
+    title,
+    description,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
 };
 
 export default function ResumePage() {
