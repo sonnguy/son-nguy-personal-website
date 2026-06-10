@@ -1,38 +1,29 @@
 import type { Metadata } from "next";
 
-export const siteUrl = new URL("https://sonnguy.dev");
+import { profile, siteMeta } from "@/content";
 
-const title =
-  "Son Nguy | Product Engineer - Payments, Martech & Customer Experience";
-const description =
-  "Product Engineer with 10+ years of experience building customer-facing products across fintech, AI SaaS, hospitality, and membership platforms. Specialized in payments, Martech, analytics, and AI-assisted engineering.";
-
-export const socialImage = {
-  url: "/images/og-image-1200x630.png",
-  width: 1200,
-  height: 630,
-  alt: "Son Nguy, Product Engineer specializing in payments, Martech, and customer experience platforms",
-};
+export const siteUrl = new URL(siteMeta.domain);
+export const socialImage = siteMeta.socialImage;
 
 export const siteMetadata: Metadata = {
   metadataBase: siteUrl,
-  title,
-  description,
+  title: siteMeta.siteTitle,
+  description: siteMeta.siteDescription,
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     url: siteUrl.origin,
-    siteName: "Son Nguy",
-    title,
-    description,
+    siteName: profile.name,
+    title: siteMeta.ogTitle,
+    description: siteMeta.ogDescription,
     images: [socialImage],
   },
   twitter: {
     card: "summary_large_image",
-    title,
-    description,
+    title: siteMeta.ogTitle,
+    description: siteMeta.ogDescription,
     images: [socialImage],
   },
   icons: {

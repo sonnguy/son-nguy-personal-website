@@ -1,11 +1,4 @@
-import { profile } from "@/content/profile";
-
-const navigation = [
-  { href: "#about", label: "About" },
-  { href: "#platforms", label: "Platforms" },
-  { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
-] as const;
+import { profile, siteMeta } from "@/content";
 
 export function SiteHeader() {
   return (
@@ -21,7 +14,7 @@ export function SiteHeader() {
 
         <nav aria-label="Primary navigation">
           <ul className="flex items-center gap-3 text-xs font-medium text-slate-600 sm:gap-7 sm:text-sm lg:text-[0.9375rem]">
-            {navigation.map((item) => (
+            {siteMeta.navigation.map((item) => (
               <li key={item.href}>
                 <a
                   className="rounded-sm transition-colors hover:text-slate-950 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--accent)]"

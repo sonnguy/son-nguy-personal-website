@@ -1,10 +1,12 @@
 import Image from "next/image";
 
-import { homepageContent } from "@/content/homepage";
-import { profile } from "@/content/profile";
-import { resumeContent } from "@/content/resume";
+import { profile, siteMeta } from "@/content";
 
 export function HeroSection() {
+  const [positioningPrefix, positioningSuffix] = profile.positioning.split(
+    profile.positioningAccent,
+  );
+
   return (
     <section
       className="grid grid-cols-[minmax(0,1fr)] scroll-mt-20 items-center gap-12 py-16 sm:py-20 lg:min-h-[44rem] lg:grid-cols-[minmax(0,1fr)_23rem] lg:gap-20 lg:py-24"
@@ -19,31 +21,31 @@ export function HeroSection() {
           className="mt-5 max-w-full text-4xl font-semibold leading-[1.08] tracking-[-0.05em] text-slate-950 sm:max-w-4xl sm:text-5xl lg:text-[4rem]"
           id="hero-heading"
         >
-          Product Engineer specializing in{" "}
+          {positioningPrefix}
           <span className="text-[var(--accent)]">
-            Payments, Martech, and Customer Experience
-          </span>{" "}
-          <span>Platforms</span>
+            {profile.positioningAccent}
+          </span>
+          <span>{positioningSuffix}</span>
         </h1>
         <p className="mt-8 max-w-3xl text-xl leading-9 text-slate-700 sm:text-2xl sm:leading-10">
-          {homepageContent.hero.subheadline}
+          {profile.homepage.hero.subheadline}
         </p>
         <p className="mt-5 max-w-2xl text-[1.0625rem] leading-8 text-[var(--muted)]">
-          {homepageContent.hero.supportingCopy}
+          {profile.homepage.hero.supportingCopy}
         </p>
         <div className="mt-9 flex flex-col gap-3 sm:flex-row">
           <a
             className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[var(--accent)] px-6 text-sm font-semibold text-white transition-colors hover:bg-blue-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
             href={`mailto:${profile.email}`}
           >
-            {homepageContent.hero.primaryAction}
+            {profile.homepage.hero.primaryAction}
           </a>
           <a
             className="inline-flex min-h-12 items-center justify-center rounded-lg border border-slate-300 bg-white px-6 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
-            href={resumeContent.pdfPath}
+            href={siteMeta.resumeUrl}
             download
           >
-            {homepageContent.hero.secondaryAction}
+            {profile.homepage.hero.secondaryAction}
           </a>
         </div>
       </div>

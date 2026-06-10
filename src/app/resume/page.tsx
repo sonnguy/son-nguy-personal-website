@@ -1,30 +1,28 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 
-import { resumeContent } from "@/content/resume";
+import { siteMeta } from "@/content";
 import { socialImage } from "@/lib/site-metadata";
 
-const title = "Resume | Son Nguy";
-const description =
-  "Resume for Son Nguy, a Product Engineer specializing in payments, Martech, analytics, and customer experience platforms.";
+const { resumePage } = siteMeta;
 
 export const metadata: Metadata = {
-  title,
-  description,
+  title: resumePage.title,
+  description: resumePage.description,
   alternates: {
     canonical: "/resume",
   },
   openGraph: {
     type: "website",
     url: "/resume",
-    title,
-    description,
+    title: resumePage.title,
+    description: resumePage.description,
     images: [socialImage],
   },
   twitter: {
     card: "summary_large_image",
-    title,
-    description,
+    title: resumePage.title,
+    description: resumePage.description,
     images: [socialImage],
   },
 };
@@ -35,13 +33,13 @@ export default function ResumePage() {
       <div className="mx-auto w-full max-w-5xl">
         <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-10">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--accent)]">
-            Son Nguy
+            {resumePage.eyebrow}
           </p>
           <h1 className="mt-2 text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
-            Resume
+            {resumePage.heading}
           </h1>
           <p className="mt-4 max-w-xl text-base text-slate-600 sm:text-lg">
-            View or download the latest PDF version of my resume.
+            {resumePage.intro}
           </p>
 
           <nav
@@ -50,18 +48,18 @@ export default function ResumePage() {
           >
             <a
               className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[var(--accent)] px-5 text-sm font-semibold text-white transition-colors hover:bg-blue-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
-              href={resumeContent.pdfPath}
+              href={siteMeta.resumeUrl}
               download
             >
-              Download Resume
+              {resumePage.downloadAction}
             </a>
             <a
               className="inline-flex min-h-12 items-center justify-center rounded-lg border border-slate-300 bg-white px-5 text-sm font-semibold text-slate-900 transition-colors hover:border-slate-400 hover:bg-slate-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
-              href={resumeContent.pdfPath}
+              href={siteMeta.resumeUrl}
               target="_blank"
               rel="noreferrer"
             >
-              Open PDF in New Tab
+              {resumePage.openAction}
             </a>
           </nav>
 
@@ -69,23 +67,24 @@ export default function ResumePage() {
             className="mt-6 inline-flex text-sm font-semibold text-[var(--accent)] underline-offset-4 hover:underline focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
             href="/"
           >
-            Back to Homepage
+            {resumePage.backAction}
           </Link>
         </section>
 
         <section className="mt-6 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div className="border-b border-slate-200 px-5 py-4 sm:px-6">
-            <h2 className="font-semibold text-slate-950">Resume preview</h2>
+            <h2 className="font-semibold text-slate-950">
+              {resumePage.previewTitle}
+            </h2>
             <p className="mt-1 text-sm text-slate-600">
-              If the preview does not load, open the PDF in a new tab or
-              download it.
+              {resumePage.previewFallback}
             </p>
           </div>
           <iframe
             className="h-[28rem] w-full bg-slate-100 sm:h-[38rem]"
             sandbox="allow-downloads allow-same-origin"
-            src={`${resumeContent.pdfPath}#view=FitH`}
-            title="Son Nguy resume PDF preview"
+            src={`${siteMeta.resumeUrl}#view=FitH`}
+            title={resumePage.previewFrameTitle}
           />
         </section>
       </div>

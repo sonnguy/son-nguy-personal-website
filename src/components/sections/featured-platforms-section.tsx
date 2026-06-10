@@ -1,4 +1,4 @@
-import { homepageContent } from "@/content/homepage";
+import { projects, siteMeta } from "@/content";
 
 import { SectionHeading } from "./section-heading";
 
@@ -9,10 +9,13 @@ export function FeaturedPlatformsSection() {
       id="platforms"
       aria-labelledby="platforms-heading"
     >
-      <SectionHeading id="platforms-heading" title="Featured Platforms" />
+      <SectionHeading
+        id="platforms-heading"
+        title={siteMeta.sections.platforms}
+      />
 
       <div className="mt-12 grid gap-5 lg:grid-cols-3">
-        {homepageContent.platforms.map((platform) => (
+        {projects.map((platform) => (
           <article
             className="flex h-full flex-col rounded-xl border border-slate-200 bg-white p-7 sm:p-8"
             key={platform.id}
@@ -35,9 +38,9 @@ export function FeaturedPlatformsSection() {
             </ul>
             <div className="mt-7 border-t border-[var(--border)] pt-6">
               <p className="text-lg font-semibold leading-7 tracking-[-0.01em] text-slate-900">
-                {platform.impact}
+                {platform.description}
               </p>
-              {platform.description.map((paragraph) => (
+              {platform.contributions.map((paragraph) => (
                 <p
                   className="mt-4 text-lg leading-8 text-[var(--muted)]"
                   key={paragraph}
