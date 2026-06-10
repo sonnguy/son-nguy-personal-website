@@ -14,7 +14,11 @@ export default function HomePage() {
   return (
     <>
       <SiteHeader />
-      <main className="mx-auto w-full max-w-6xl px-6 sm:px-10">
+      <main
+        className="mx-auto w-full max-w-6xl px-6 sm:px-10"
+        id="main-content"
+        tabIndex={-1}
+      >
         <HeroSection />
         <CareerSnapshotSection />
         <CoreDomainsSection />

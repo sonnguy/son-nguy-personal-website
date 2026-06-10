@@ -29,7 +29,11 @@ export const metadata: Metadata = {
 
 export default function ResumePage() {
   return (
-    <main className="min-h-screen bg-slate-50 px-4 py-10 sm:px-6 sm:py-16">
+    <main
+      className="min-h-screen bg-slate-50 px-4 py-10 sm:px-6 sm:py-16"
+      id="main-content"
+      tabIndex={-1}
+    >
       <div className="mx-auto w-full max-w-5xl">
         <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-10">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--accent)]">
