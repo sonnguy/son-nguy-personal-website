@@ -3,7 +3,7 @@ import { homepageContent } from "@/content/homepage";
 export function CareerSnapshotSection() {
   return (
     <section
-      className="rounded-2xl bg-slate-950 px-6 py-10 text-white sm:px-8 sm:py-12"
+      className="rounded-2xl bg-slate-950 px-6 py-8 text-white sm:px-8 sm:py-10"
       aria-labelledby="career-snapshot-heading"
     >
       <div className="flex flex-col gap-3 border-b border-white/15 pb-7 sm:flex-row sm:items-end sm:justify-between">

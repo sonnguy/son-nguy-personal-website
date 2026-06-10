@@ -20,7 +20,7 @@ export function SiteHeader() {
         </a>
 
         <nav aria-label="Primary navigation">
-          <ul className="flex items-center gap-3 text-xs font-medium text-slate-600 sm:gap-7 sm:text-sm">
+          <ul className="flex items-center gap-3 text-xs font-medium text-slate-600 sm:gap-7 sm:text-sm lg:text-[0.9375rem]">
             {navigation.map((item) => (
               <li key={item.href}>
                 <a

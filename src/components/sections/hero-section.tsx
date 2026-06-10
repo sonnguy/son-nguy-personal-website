@@ -21,8 +21,9 @@ export function HeroSection() {
         >
           Product Engineer specializing in{" "}
           <span className="text-[var(--accent)]">
-            Payments, Martech, and Customer Experience Platforms
-          </span>
+            Payments, Martech, and Customer Experience
+          </span>{" "}
+          <span>Platforms</span>
         </h1>
         <p className="mt-8 max-w-3xl text-xl leading-9 text-slate-700 sm:text-2xl sm:leading-10">
           {homepageContent.hero.subheadline}

@@ -39,7 +39,7 @@ export function FeaturedPlatformsSection() {
               </p>
               {platform.description.map((paragraph) => (
                 <p
-                  className="mt-4 text-[1.0625rem] leading-8 text-[var(--muted)]"
+                  className="mt-4 text-lg leading-8 text-[var(--muted)]"
                   key={paragraph}
                 >
                   {paragraph}
