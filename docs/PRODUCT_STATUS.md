@@ -116,6 +116,50 @@ Phase 5 should address the following gaps:
 - Recruiters should understand the value proposition faster.
 - Differentiation from generic frontend portfolios can be improved.
 
+## Roadmap
+
+The roadmap is ordered by product value. Future phases should remain small,
+measurable, and grounded in approved resume content.
+
+### Phase 5 — Recruiter Conversion Optimization
+
+Status: Planned
+
+Primary objective: Help target visitors understand Son’s value and take the
+next step with less effort.
+
+- Strengthen the hero’s seniority, role relevance, and recruiter-facing value proposition.
+- Reframe featured work around Payments, Martech, Analytics, Customer Experience, and Product Engineering outcomes.
+- Improve the prominence and wording of resume actions.
+- Make the contact section more direct and conversion-focused.
+- Review the page hierarchy against the 15-second comprehension goal.
+- Preserve the content-first visual direction and avoid unsupported claims.
+
+Phase 5 is complete when the core positioning, strongest domains, resume
+access, and contact path are immediately clear across mobile and desktop.
+
+### Continuous Product Maintenance
+
+Status: Ongoing
+
+- Keep website and resume facts, roles, dates, and positioning synchronized.
+- Regenerate the resume PDF after approved resume-content changes.
+- Maintain metadata, sitemap, social preview assets, dependencies, and production deployment health.
+- Use Vercel Analytics and Speed Insights to identify evidence-based improvements.
+- Revalidate responsive behavior, accessibility, lint, and production builds before releases.
+
+### Optional Product Expansion
+
+Status: Unscheduled
+
+- Add an AI-assisted engineering page if it strengthens the core positioning with useful, verified content.
+- Add deeper case studies only when real work can be presented accurately and without confidential information.
+- Add a writing or speaking section when relevant material exists.
+- Add testimonials only when they are real, approved, and attributable.
+
+Optional expansion should not dilute the recruiter-facing purpose or turn the
+site into a traditional portfolio. The blog remains low priority.
+
 ## Backlog / Future Considerations
 
 - Phase 5 — Recruiter Conversion Optimization
@@ -144,3 +188,22 @@ Future optimization should improve:
 - Recognition of Son’s business-domain experience
 - Differentiation from generic frontend engineer portfolios
 - Confidence that the website and resume tell one consistent, credible story
+
+## Release History
+
+### v1.0.0 — June 10, 2026
+
+Status: Production
+
+The first tagged production release established the website and resume system:
+
+- Shipped the responsive recruiter-facing homepage and its core content sections.
+- Established business-first positioning across Product Engineering, Payments, Martech, Analytics, Customer Experience, and AI-assisted development.
+- Added production SEO metadata, canonical URLs, social preview assets, favicons, sitemap, and robots configuration.
+- Added the `/resume` page, public two-page resume PDF, and structured PDF generation workflow.
+- Centralized website and resume facts in structured JSON content.
+- Added Vercel Analytics and Speed Insights.
+- Added active section navigation, skip navigation, keyboard focus styles, and reduced-motion support.
+- Completed lint, production build, mobile, and desktop validation for release.
+
+No earlier repository versions were tagged as product releases.
