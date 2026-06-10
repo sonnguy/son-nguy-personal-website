@@ -34,7 +34,7 @@ export function ContactSection() {
           </a>
         </div>
 
-        <dl className="mt-10 grid gap-6 border-t border-blue-100 pt-8 sm:grid-cols-3">
+        <dl className="mt-10 grid gap-6 border-t border-blue-100 pt-8 sm:grid-cols-2">
           <div>
             <dt className="text-sm font-semibold text-slate-950">Email</dt>
             <dd className="mt-2">
@@ -46,21 +46,19 @@ export function ContactSection() {
               </a>
             </dd>
           </div>
-          <div>
-            <dt className="text-sm font-semibold text-slate-950">LinkedIn</dt>
-            <dd className="mt-2 text-sm text-slate-600">
-              {profile.linkedinUrl ? (
+          {profile.linkedinUrl ? (
+            <div>
+              <dt className="text-sm font-semibold text-slate-950">LinkedIn</dt>
+              <dd className="mt-2 text-sm text-slate-600">
                 <a
                   className="underline decoration-slate-300 underline-offset-4 transition-colors hover:text-[var(--accent)]"
                   href={profile.linkedinUrl}
                 >
                   View LinkedIn profile
                 </a>
-              ) : (
-                profile.linkedinPlaceholder
-              )}
-            </dd>
-          </div>
+              </dd>
+            </div>
+          ) : null}
           <div>
             <dt className="text-sm font-semibold text-slate-950">Resume</dt>
             <dd className="mt-2">

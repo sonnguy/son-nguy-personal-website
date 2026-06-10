@@ -14,7 +14,7 @@ export function FeaturedPlatformsSection() {
       <div className="mt-12 grid gap-5 lg:grid-cols-3">
         {homepageContent.platforms.map((platform) => (
           <article
-            className="flex h-full flex-col rounded-xl border border-[var(--border)] bg-white p-7 sm:p-8"
+            className="flex h-full flex-col rounded-xl border border-slate-200 bg-white p-7 sm:p-8"
             key={platform.id}
           >
             <h3 className="text-2xl font-semibold tracking-tight text-slate-950">
@@ -33,9 +33,15 @@ export function FeaturedPlatformsSection() {
                 </li>
               ))}
             </ul>
-            <div className="mt-7 space-y-4 border-t border-[var(--border)] pt-6">
+            <div className="mt-7 border-t border-[var(--border)] pt-6">
+              <p className="text-lg font-semibold leading-7 tracking-[-0.01em] text-slate-900">
+                {platform.impact}
+              </p>
               {platform.description.map((paragraph) => (
-                <p className="leading-7 text-[var(--muted)]" key={paragraph}>
+                <p
+                  className="mt-4 text-[1.0625rem] leading-8 text-[var(--muted)]"
+                  key={paragraph}
+                >
                   {paragraph}
                 </p>
               ))}

@@ -3,27 +3,30 @@ export const platforms = [
     id: "mvillage",
     name: "MVillage",
     domains: ["Hospitality", "Membership", "Payments"],
+    impact:
+      "Rebuilt core booking, membership, loyalty, and payment journeys while helping establish the engineering team behind them.",
     description: [
-      "Helped establish and scale a new engineering team responsible for rebuilding core digital platforms.",
-      "Delivered customer-facing booking, membership, loyalty, and payment experiences while supporting analytics foundations and acquisition initiatives that contribute to customer growth and retention.",
+      "Supported analytics foundations and acquisition initiatives designed to improve customer growth, retention, and the end-to-end hospitality experience.",
     ],
   },
   {
     id: "prophet-exchange",
     name: "Prophet Exchange",
     domains: ["Payments", "Martech", "Customer Lifecycle"],
+    impact:
+      "Owned business-critical frontend systems across payments, customer lifecycle, analytics, and engagement for web and mobile.",
     description: [
-      "Owned business-critical frontend domains including payment processing, deposit and withdrawal flows, customer engagement experiences, analytics integrations, and lifecycle marketing systems across web and mobile platforms.",
-      "Worked closely with cross-functional teams to support customer acquisition, engagement, and retention initiatives.",
+      "Delivered deposit and withdrawal flows, analytics integrations, and lifecycle marketing capabilities that supported acquisition, engagement, and retention.",
     ],
   },
   {
     id: "cq-capitalis",
     name: "CQ & Capitalis",
     domains: ["AI SaaS", "Investment Platforms", "Product Delivery"],
+    impact:
+      "Turned AI-enabled investment concepts into scalable product experiences, prototypes, and MVPs.",
     description: [
-      "Built scalable product experiences, prototypes, and MVPs for AI-enabled investment platforms.",
-      "Collaborated across Product, Design, and Backend teams while contributing to Stripe payment workflows and adopting AI-assisted engineering practices to accelerate delivery.",
+      "Partnered across Product, Design, and Backend, contributed to Stripe payment workflows, and used AI-assisted engineering practices to accelerate delivery.",
     ],
   },
 ] as const;

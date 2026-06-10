@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --muted: #5f6470;
+  --muted: #475569;
   --border: #e5e7eb;
   --surface: #f8fafc;
   --accent: #2563eb;
@@ -25,10 +25,8 @@ body {
     Inter, Geist, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", sans-serif;
   text-rendering: optimizeLegibility;
-}
-
-a {
-  color: inherit;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 ::selection {
