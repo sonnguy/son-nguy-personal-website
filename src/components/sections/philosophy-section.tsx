@@ -1,4 +1,4 @@
-import { homepageContent } from "@/content/homepage";
+import { profile } from "@/content";
 
 export function PhilosophySection() {
   return (
@@ -8,17 +8,17 @@ export function PhilosophySection() {
     >
       <div className="grid gap-8 lg:grid-cols-[15rem_1fr] lg:gap-20">
         <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--accent)]">
-          Engineering Philosophy
+          {profile.homepage.philosophy.eyebrow}
         </p>
         <div className="max-w-3xl">
           <h2
             className="text-3xl font-semibold tracking-[-0.03em] text-slate-950 sm:text-4xl"
             id="philosophy-heading"
           >
-            {homepageContent.philosophy.title}
+            {profile.homepage.philosophy.title}
           </h2>
           <div className="mt-7 space-y-5 text-lg leading-8 text-[var(--muted)]">
-            {homepageContent.philosophy.paragraphs.map((paragraph) => (
+            {profile.homepage.philosophy.paragraphs.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
           </div>

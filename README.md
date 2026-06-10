@@ -16,7 +16,7 @@ Product requirements, frozen content, build guidance, and the existing resume
 source are maintained in [`docs/`](docs/).
 
 The current standalone HTML resume is preserved in [`legacy/`](legacy/), and the
-latest exported PDF is available under [`public/files/`](public/files/).
+generated PDF is available under [`public/resume/`](public/resume/).
 
 ## Local Development
 
@@ -41,3 +41,24 @@ at `http://localhost:3000/resume`.
 npm run lint
 npm run build
 ```
+
+## Resume PDF
+
+The resume PDF is generated from the structured JSON files in [`content/`](content/)
+using the print template in
+[`src/resume/resume-template.mjs`](src/resume/resume-template.mjs).
+
+Regenerate it after changing approved resume content:
+
+```bash
+npm run generate:resume
+```
+
+The command uses Playwright with an installed Chrome or Chromium browser and
+writes the two-page A4 PDF to:
+
+```text
+public/resume/Son-Nguy-Senior-Frontend-Engineer-2026.pdf
+```
+
+Set `CHROME_PATH` when Chrome is installed in a non-standard location.

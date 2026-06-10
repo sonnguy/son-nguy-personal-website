@@ -1,0 +1,95 @@
+{
+  "name": "Son Nguy",
+  "title": "Product Engineer",
+  "resumeTitle": "Senior Front-End Engineer | Product Engineering | Martech | Payment Systems",
+  "positioning": "Product Engineer specializing in Payments, Martech, and Customer Experience Platforms",
+  "positioningAccent": "Payments, Martech, and Customer Experience",
+  "location": "Khanh Hoa, Vietnam",
+  "email": "nguynhuhuyson@gmail.com",
+  "phone": "+84 392 309 915",
+  "summary": "Product Engineer with 10+ years of experience building customer-facing products across fintech, AI SaaS, hospitality, and membership platforms.",
+  "resumeSummary": "Senior Front-End Engineer with 10+ years of experience building web and mobile products across fintech, AI SaaS, hospitality, membership, and marketing technology. Specialized in payment systems, customer analytics, Martech integrations, and product-focused engineering with React, Next.js, Vue, Nuxt, and React Native. Experienced in owning business-critical features and collaborating across Product, Marketing, Design, QA, Backend, and Engineering teams.",
+  "highlights": {
+    "metrics": [
+      {
+        "value": "10+",
+        "label": "Years Building Products"
+      },
+      {
+        "value": "8+",
+        "label": "Payment Providers Integrated"
+      },
+      {
+        "value": "8+",
+        "label": "Martech & Analytics Platforms"
+      },
+      {
+        "value": "3+",
+        "label": "Core Product Domains"
+      }
+    ],
+    "career": [
+      "10+ years delivering customer-facing web and mobile products across fintech, AI SaaS, hospitality, membership, and Martech.",
+      "Owned frontend delivery for payment processing, deposit and withdrawal flows, customer analytics, and Martech integrations.",
+      "Integrated Stripe, PayPal, Trustly, WorldPay, PayNearMe, OnePay, TPBank, and OCB payment systems.",
+      "Implemented analytics and lifecycle platforms including Amplitude, GA4, GTM, Segment, Braze, AppsFlyer, Mixpanel, Customer.io, and PostHog.",
+      "Contributed to product planning, architecture, releases, incident response, technical interviews, and AI-assisted engineering workflows."
+    ]
+  },
+  "education": [
+    {
+      "institution": "Van Lang University",
+      "program": "Software Engineering",
+      "startDate": "2010",
+      "endDate": "2014"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Azure and Web Services Certification",
+      "year": "2018"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Professional Working Proficiency"
+    }
+  ],
+  "links": {
+    "website": "https://sonnguy.dev",
+    "linkedin": null
+  },
+  "avatarPath": "/images/avatar-professional.png",
+  "homepage": {
+    "hero": {
+      "subheadline": "Building customer-facing products across fintech, AI SaaS, hospitality, and membership businesses with 10+ years of experience in frontend engineering, payment systems, analytics, and product delivery.",
+      "supportingCopy": "From payment gateways and loyalty programs to analytics foundations and marketing technology integrations, I help teams build products that improve customer experiences and support business growth.",
+      "primaryAction": "Get In Touch",
+      "secondaryAction": "Download Resume"
+    },
+    "snapshot": {
+      "title": "Career Snapshot",
+      "description": "A decade of building the systems behind customer transactions, engagement, and product growth."
+    },
+    "experience": {
+      "eyebrow": "Experience",
+      "title": "10+ Years Building Customer-Facing Products"
+    },
+    "philosophy": {
+      "eyebrow": "Engineering Philosophy",
+      "title": "Building Products Where Technology Meets Business",
+      "paragraphs": [
+        "The most valuable engineering work rarely exists in isolation.",
+        "It often sits at the intersection of customer needs, business objectives, product strategy, payments, analytics, and operational constraints.",
+        "I enjoy working across disciplines to help teams transform complex requirements into reliable customer-facing experiences that create measurable value for both users and businesses."
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Let's Build Better Product Experiences",
+      "copy": "I'm always interested in conversations about product engineering, payment systems, Martech, customer experience platforms, and AI-assisted development workflows.",
+      "primaryAction": "Get In Touch"
+    }
+  }
+}

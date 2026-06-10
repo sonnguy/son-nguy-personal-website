@@ -1,0 +1,56 @@
+{
+  "siteTitle": "Son Nguy | Product Engineer - Payments, Martech & Customer Experience",
+  "siteDescription": "Product Engineer with 10+ years of experience building customer-facing products across fintech, AI SaaS, hospitality, and membership platforms. Specialized in payments, Martech, analytics, and AI-assisted engineering.",
+  "ogTitle": "Son Nguy | Product Engineer - Payments, Martech & Customer Experience",
+  "ogDescription": "Product Engineer with 10+ years of experience building customer-facing products across fintech, AI SaaS, hospitality, and membership platforms. Specialized in payments, Martech, analytics, and AI-assisted engineering.",
+  "domain": "https://sonnguy.dev",
+  "resumeUrl": "/resume/Son-Nguy-Senior-Frontend-Engineer-2026.pdf",
+  "socialImage": {
+    "url": "/images/og-image-1200x630.png",
+    "width": 1200,
+    "height": 630,
+    "alt": "Son Nguy, Product Engineer specializing in payments, Martech, and customer experience platforms"
+  },
+  "navigation": [
+    {
+      "href": "#about",
+      "label": "About"
+    },
+    {
+      "href": "#platforms",
+      "label": "Platforms"
+    },
+    {
+      "href": "#experience",
+      "label": "Experience"
+    },
+    {
+      "href": "#contact",
+      "label": "Contact"
+    }
+  ],
+  "sections": {
+    "domains": "Core Domains",
+    "platforms": "Featured Platforms"
+  },
+  "contactLabels": {
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "linkedinAction": "View LinkedIn profile",
+    "resume": "Resume",
+    "resumeAction": "Download Resume"
+  },
+  "resumePage": {
+    "title": "Resume | Son Nguy",
+    "description": "Resume for Son Nguy, a Product Engineer specializing in payments, Martech, analytics, and customer experience platforms.",
+    "eyebrow": "Son Nguy",
+    "heading": "Resume",
+    "intro": "View or download the latest PDF version of my resume.",
+    "downloadAction": "Download Resume",
+    "openAction": "Open PDF in New Tab",
+    "backAction": "Back to Homepage",
+    "previewTitle": "Resume preview",
+    "previewFallback": "If the preview does not load, open the PDF in a new tab or download it.",
+    "previewFrameTitle": "Son Nguy resume PDF preview"
+  }
+}

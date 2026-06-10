@@ -1,4 +1,4 @@
-import { homepageContent } from "@/content/homepage";
+import { profile } from "@/content";
 
 export function CareerSnapshotSection() {
   return (
@@ -11,16 +11,15 @@ export function CareerSnapshotSection() {
           className="text-2xl font-semibold tracking-[-0.03em] sm:text-3xl"
           id="career-snapshot-heading"
         >
-          Career Snapshot
+          {profile.homepage.snapshot.title}
         </h2>
         <p className="max-w-xl text-sm leading-6 text-slate-300 sm:text-right">
-          A decade of building the systems behind customer transactions,
-          engagement, and product growth.
+          {profile.homepage.snapshot.description}
         </p>
       </div>
 
       <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
-        {homepageContent.snapshot.map((metric) => (
+        {profile.highlights.metrics.map((metric) => (
           <div
             className="border-l border-blue-400 pl-5 lg:border-l-white/15 lg:first:border-l-blue-400"
             key={metric.label}

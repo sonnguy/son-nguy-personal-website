@@ -1,14 +1,14 @@
-import { homepageContent } from "@/content/homepage";
+import { siteMeta, skills } from "@/content";
 
 import { SectionHeading } from "./section-heading";
 
 export function CoreDomainsSection() {
   return (
     <section className="py-20 sm:py-28" aria-labelledby="domains-heading">
-      <SectionHeading id="domains-heading" title="Core Domains" />
+      <SectionHeading id="domains-heading" title={siteMeta.sections.domains} />
 
       <div className="mt-12 grid gap-4 md:grid-cols-2">
-        {homepageContent.domains.map((domain, index) => (
+        {skills.domains.map((domain, index) => (
           <article
             className="rounded-xl border border-[var(--border)] bg-white p-7 sm:p-8"
             key={domain.id}

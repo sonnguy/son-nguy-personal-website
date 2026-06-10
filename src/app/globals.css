@@ -29,7 +29,49 @@ body {
   line-height: 1.6;
 }
 
+a {
+  touch-action: manipulation;
+}
+
+a:focus-visible,
+iframe:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 100;
+  padding: 0.625rem 0.875rem;
+  border-radius: 0.5rem;
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25;
+  transform: translateY(calc(-100% - 1rem));
+  transition: transform 150ms ease-out;
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+  outline-color: #ffffff;
+  outline-offset: 2px;
+}
+
 ::selection {
   background: #dbeafe;
   color: #172554;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .skip-link {
+    transition: none;
+  }
 }

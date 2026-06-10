@@ -1,0 +1,133 @@
+[
+  {
+    "company": "MVillage",
+    "role": "Senior Front-End Engineer",
+    "startDate": "Jan 2025",
+    "endDate": "Present",
+    "displayPeriod": "2025 — Present",
+    "location": null,
+    "bullets": [
+      "Helped establish and scale a new engineering team responsible for rebuilding the company's core digital platforms.",
+      "Rebuilt booking, membership, loyalty, and operational management systems using React and Next.js.",
+      "Integrated OnePay, TPBank, and OCB payment gateways for online bookings, subscriptions, and membership purchases.",
+      "Implemented Amplitude, GA4, and GTM for analytics, attribution, and marketing campaign tracking.",
+      "Partnered with Product, Design, Marketing, QA, and Backend teams to improve customer experience and conversion."
+    ],
+    "technologies": [
+      "React",
+      "Next.js",
+      "OnePay",
+      "TPBank",
+      "OCB",
+      "Amplitude",
+      "GA4",
+      "GTM"
+    ]
+  },
+  {
+    "company": "Rennlabs",
+    "role": "Software Engineer",
+    "startDate": "Jan 2023",
+    "endDate": "Dec 2024",
+    "displayPeriod": "2023 — 2024",
+    "location": null,
+    "bullets": [
+      "Built AI-enabled SaaS products CQ and Capitalis using React, Next.js, Node.js, and Tailwind CSS.",
+      "Worked across requirement clarification, UI implementation, API integration, testing, and delivery with Product, Design, and Backend.",
+      "Built prototypes and MVPs to validate business requirements and investor feedback.",
+      "Contributed to backend features, API integrations, and Stripe payment workflows.",
+      "Adopted AI-assisted engineering workflows to improve delivery efficiency."
+    ],
+    "technologies": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Stripe"
+    ]
+  },
+  {
+    "company": "Prophet Exchange",
+    "role": "Senior Front-End Engineer",
+    "startDate": "Jan 2021",
+    "endDate": "Dec 2022",
+    "displayPeriod": "2021 — 2022",
+    "location": null,
+    "bullets": [
+      "Built and maintained customer-facing sportsbook and sports prediction-market experiences across web and mobile platforms using Vue, Nuxt, and React Native.",
+      "Worked on core product flows including registration, user profile, betting flow, wager status, bet matching status, deposits, and withdrawals.",
+      "Implemented real-time wager and bet status updates using Pusher to support live betting and matching workflows.",
+      "Integrated PayPal, Trustly, WorldPay, and PayNearMe payment providers while maintaining deposit and withdrawal experiences.",
+      "Delivered Martech and analytics integrations with Segment, AppsFlyer, Mixpanel, Braze, and Customer.io to support attribution, lifecycle marketing, and customer engagement."
+    ],
+    "technologies": [
+      "Vue",
+      "Nuxt",
+      "React Native",
+      "Pusher",
+      "PayPal",
+      "Trustly",
+      "WorldPay",
+      "PayNearMe",
+      "Segment",
+      "AppsFlyer",
+      "Mixpanel",
+      "Braze",
+      "Customer.io"
+    ]
+  },
+  {
+    "company": "Pandu",
+    "role": "Full Stack Developer",
+    "startDate": "Dec 2018",
+    "endDate": "Dec 2020",
+    "displayPeriod": "2018 — 2020",
+    "location": null,
+    "bullets": [
+      "Built React, Vue, Next.js, and React Native products; designed SQL databases and .NET Core APIs; managed Google Play and App Store deployments."
+    ],
+    "technologies": [
+      "React",
+      "Vue",
+      "Next.js",
+      "React Native",
+      "SQL",
+      ".NET Core"
+    ]
+  },
+  {
+    "company": "Logix Technology",
+    "role": "Front-End Developer",
+    "startDate": "Jul 2017",
+    "endDate": "Dec 2019",
+    "displayPeriod": "2017 — 2019",
+    "location": null,
+    "bullets": [
+      "Developed enterprise applications with Gatsby, GraphQL, Contentful, and Angular; supported Azure integrations, architecture, and code reviews."
+    ],
+    "technologies": [
+      "Gatsby",
+      "GraphQL",
+      "Contentful",
+      "Angular",
+      "Azure"
+    ]
+  },
+  {
+    "company": "Orient",
+    "role": "Front-End Developer",
+    "startDate": "Jun 2016",
+    "endDate": "Jun 2017",
+    "displayPeriod": "2016 — 2017",
+    "location": null,
+    "bullets": [
+      "Built and maintained cloud enterprise applications using AngularJS, SharePoint, Office365, and Microsoft Graph."
+    ],
+    "technologies": [
+      "AngularJS",
+      "SharePoint",
+      "Office365",
+      "Microsoft Graph"
+    ]
+  }
+]

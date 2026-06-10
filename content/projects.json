@@ -1,0 +1,93 @@
+[
+  {
+    "id": "mvillage",
+    "name": "MVillage",
+    "resumeName": "MVillage Platform",
+    "category": "Hospitality, Membership & Payments",
+    "domains": [
+      "Hospitality",
+      "Membership",
+      "Payments"
+    ],
+    "description": "Rebuilt core booking, membership, loyalty, and payment journeys while helping establish the engineering team behind them.",
+    "contributions": [
+      "Supported analytics foundations and acquisition initiatives designed to improve customer growth, retention, and the end-to-end hospitality experience."
+    ],
+    "resumeContributions": [
+      "Helped establish the engineering team and rebuild booking, membership, loyalty, and operational platforms with React and Next.js.",
+      "Delivered the booking journey from room selection through OnePay redirect and return handling, integrating OnePay, TPBank, and OCB for online bookings and membership purchases.",
+      "Implemented Amplitude, GA4, and GTM foundations for product analytics, attribution, and acquisition campaigns."
+    ],
+    "technologies": [
+      "React",
+      "Next.js",
+      "OnePay",
+      "TPBank",
+      "OCB",
+      "Amplitude",
+      "GA4",
+      "GTM"
+    ]
+  },
+  {
+    "id": "prophet-exchange",
+    "name": "Prophet Exchange",
+    "resumeName": "ProphetX Platform",
+    "category": "Sports Prediction Market & Martech",
+    "domains": [
+      "Payments",
+      "Martech",
+      "Customer Lifecycle"
+    ],
+    "description": "Owned business-critical frontend systems across payments, customer lifecycle, analytics, and engagement for web and mobile.",
+    "contributions": [
+      "Delivered deposit and withdrawal flows, analytics integrations, and lifecycle marketing capabilities that supported acquisition, engagement, and retention."
+    ],
+    "resumeContributions": [
+      "Built and maintained customer-facing sportsbook and prediction-market experiences, including registration, user profile, betting flows, wager status, and bet matching status.",
+      "Implemented real-time wager and bet status updates using Pusher, improving visibility across betting and matching workflows.",
+      "Supported deposit, withdrawal, payment provider integrations, and Martech systems using PayPal, Trustly, WorldPay, PayNearMe, Segment, AppsFlyer, Mixpanel, Braze, and Customer.io."
+    ],
+    "technologies": [
+      "Vue",
+      "Nuxt",
+      "React Native",
+      "Pusher",
+      "PayPal",
+      "Trustly",
+      "WorldPay",
+      "PayNearMe",
+      "Segment",
+      "AppsFlyer",
+      "Mixpanel",
+      "Braze",
+      "Customer.io"
+    ]
+  },
+  {
+    "id": "cq-capitalis",
+    "name": "CQ & Capitalis",
+    "resumeName": "CQ & Capitalis",
+    "category": "AI-Enabled Investment SaaS",
+    "domains": [
+      "AI SaaS",
+      "Investment Platforms",
+      "Product Delivery"
+    ],
+    "description": "Turned AI-enabled investment concepts into scalable product experiences, prototypes, and MVPs.",
+    "contributions": [
+      "Partnered across Product, Design, and Backend, contributed to Stripe payment workflows, and used AI-assisted engineering practices to accelerate delivery."
+    ],
+    "resumeContributions": [
+      "Built scalable product features, prototypes, and MVPs from requirements, stakeholder feedback, and design concepts.",
+      "Delivered React and Next.js applications while contributing to Node.js APIs and Stripe workflows when required.",
+      "Collaborated across Product, Design, and Backend throughout delivery, using AI-assisted workflows to accelerate prototyping, debugging, code review, and releases."
+    ],
+    "technologies": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Stripe"
+    ]
+  }
+]
