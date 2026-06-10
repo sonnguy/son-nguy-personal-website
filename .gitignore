@@ -31,4 +31,3 @@ coverage/
 
 # TypeScript
 *.tsbuildinfo
-next-env.d.ts
