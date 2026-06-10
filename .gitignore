@@ -8,6 +8,10 @@ out/
 # Build output
 dist/
 
+# Repository documentation
+!docs/
+!docs/**
+
 # Environment variables
 .env
 .env.local
